@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    padding:0;
+}    
+header nav{
+    background-color: aqua;
+    padding: 15px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin-left: 20px;
+}
+header nav ul li a{
+    color:black;
+    text-decoration: none;
+}
+header nav ul li a.active,
+header nav ul li:hover {
+    color:beige;
+}
+.banner {
+    width: 100%;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
